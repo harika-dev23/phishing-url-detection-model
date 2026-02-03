@@ -73,7 +73,7 @@ pip install flask numpy scikit-learn beautifulsoup4 requests python-whois google
 ## 2. Run the Application
 python server.py
 ## 3. Access the App
-http://localhost:5000
+http://localhost:
 
 ## Results & Impact
 Successfully classifies phishing and legitimate URLs
