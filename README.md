@@ -70,12 +70,12 @@ The model is trained dynamically and used for real-time prediction.
 - Simple and user-friendly interface
 
 ## How to Run the Project
-## 1. Install Dependencies
-- pip install flask numpy scikit-learn beautifulsoup4 requests python-whois googlesearch-python
-## 2. Run the Application
-- python server.py
-## 3. Access the App
-- http://localhost:
+1. Install Dependencies
+pip install flask numpy scikit-learn beautifulsoup4 requests python-whois googlesearch-python
+2. Run the Application
+python server.py
+3. Access the App
+http://localhost:
 
 ## Results & Impact
 - Successfully classifies phishing and legitimate URLs
