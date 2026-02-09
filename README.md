@@ -11,11 +11,15 @@
 - This project automates phishing detection by leveraging **feature engineering and machine learning** techniques.
 
 ## System Architecture
-- User Input (URL / File Upload)
-- Feature Extraction (30+ URL features)
-- Machine Learning Model (Random Forest)
-- Flask Backend API
-- Prediction: Phishing / Legitimate
+```
+User Interface (HTML / CSS / JS)
+↓
+Flask Web Server
+↓
+Deep Learning Model (.h5)
+↓
+Prediction Output
+```
 
 ## Tech Stack
 - **Language:** Python  
@@ -26,14 +30,16 @@
 - **Libraries:** BeautifulSoup, Requests, Whois  
 
 ## Project Structure
-- feature_extraction.py # URL feature extraction logic
-- phishing_detection.py # Model training & prediction
-- server.py # Flask application
-- dataset.csv # Training dataset
-- Features.txt # Feature definitions
-- getInput.html # Web UI
-- URL.txt # Sample URLs
-- README.md # Documentation
+```
+├── app.py # Flask application
+├── trained_model.h5 # Trained deep learning model
+├── requirements.txt # Python dependencies
+├── Procfile # Deployment configuration
+├── index.html # Frontend UI
+├── main.js # Client-side logic
+├── main.css # Styling
+├── README.md # Documentation
+```
 
 ## Feature Engineering
 The system extracts **30 different features** from each URL, including:
